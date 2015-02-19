@@ -1,6 +1,6 @@
 # sunlightlabs/hacks
 
-We at sunlight have collected various shell related hacks over the many man years. Here's a repo full of them. 
+We at sunlight have collected various shell related hacks over the many people years. Here's a repo full of them. 
 
 @sunlightlabs
 
