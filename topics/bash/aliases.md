@@ -23,3 +23,28 @@ Usage:
 
     alias headers='curl -D- -o /dev/null'
 
+## Listing files
+
+### ...with human-readable sizes
+
+    alias lh='ll -h'
+
+### ...with human-readable sizes and reverse-sorted by modification time
+
+    alias lhtr="ls -lhtr"
+
+## Networking
+
+### speedtest
+
+    alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+
+### get your machine's IP address
+
+    alias ipconfig="sudo ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | cut -d\  -f1"
+
+### host a simple local server from current working dir
+
+    alias pyserve="python -m SimpleHTTPServer"
+
+
