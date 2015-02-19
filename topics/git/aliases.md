@@ -32,3 +32,16 @@ Workflow is basically, check out the target branch, and run `git pr 302` (where
 ## Log views
 
     plog = "!f() { git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit; }; f"
+
+## Autocorrect
+
+If you'd like to have Git autocorrect your typos:
+
+    [help]
+        autocorrect = 20
+
+
+## OpenPGP Key for signing tags
+
+    [user]
+        signingkey = 807C2A87
