@@ -1,7 +1,8 @@
 # portable bash aliases
 ## the problem is that a lot of the time you have multiple machines of differing unix flavor and homebrew likes to prefix system commands w/ a 'g' like "gls" and gfind etc .
 
-ha! this is not a reliable way to decide
+```bash
+## ha! this is not a reliable way to decide
 case `uname -s` in
 Darwin)
     export PATH=/usr/local/bin:/usr/local/share/python:$PATH:/opt/local/bin:/opt/local/sbin:/sw/bin:/sw/sbin:/Developer/usr/bin
@@ -57,3 +58,4 @@ alias rm="$RM_C"
 alias vi="$VI_C"
 alias cp="$CP_C"
 alias xargs="$XARGS_C"
+```
