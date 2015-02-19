@@ -1,5 +1,6 @@
 # portable bash aliases
 ## the problem is that a lot of the time you have multiple machines of differing unix flavor and homebrew likes to prefix system commands w/ a 'g' like "gls" and gfind etc .
+# --timball
 
 ```bash
 ## ha! this is not a reliable way to decide

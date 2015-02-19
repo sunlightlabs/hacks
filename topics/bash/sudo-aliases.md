@@ -1,5 +1,6 @@
 # sudo aliases
 ## i do a lot of things as root . these are convience aliases so that i don't type "sudo" every time i want to do something as root . 
+# --timball
 
 ```bash
 # Hopefully this will make sudo sane.
