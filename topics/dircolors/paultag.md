@@ -1,3 +1,5 @@
+The following is great for a Python hacker, with 256 color terminals.
+
 ```
 TERM Eterm
 TERM ansi
