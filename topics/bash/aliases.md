@@ -46,5 +46,3 @@ Usage:
 ### host a simple local server from current working dir
 
     alias pyserve="python -m SimpleHTTPServer"
-
-
