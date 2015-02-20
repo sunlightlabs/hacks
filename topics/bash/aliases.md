@@ -19,6 +19,11 @@ Usage:
 
 `pin foo` to create `foo/__init__.py`
 
+
+## virtualenvs are Hard 
+
+    alias mkvirtualenv3='mkvirtualenv --python=$(which python3)'
+
 ## HTTP Headers
 
     alias headers='curl -D- -o /dev/null'
